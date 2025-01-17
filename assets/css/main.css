@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/*reset*/
+
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +23,6 @@
     justify-content: space-between;
 }
 
-.grid-center {
-    display: grid;
-    place-items: center;
-}
-
 body {
     font-family: "Open Sans", Arial, sans-serif;
 }
@@ -37,6 +34,8 @@ main {
         font-size: 20px;
     }
 }
+
+/*header and footer*/
 
 header {
     height: 60px;
@@ -83,6 +82,8 @@ footer {
     font-size: 18px;
     line-height: 80px;
 }
+
+/*contact icons*/
 
 .contact-section {
     ul {
@@ -160,28 +161,28 @@ section > div {
 }
 
 .user-icon {
-    color: rgb(0 0 255);
-    background-color: rgba(0, 0, 255, 10%);
+    color: #2f83c3;
+    background-color: rgb(68 166 198 / 15%);
 }
 
 .articles-icon {
-    color: rgb(24 163 24);
+    color: rgb(26, 147, 26);
     background-color: rgb(0 255 0 / 10%);
 }
 
 .messages-icon {
-    color: rgb(255 15 57);
+    color: rgb(232, 62, 90);
     background-color: rgb(255 15 55 / 10%) ;
 }
 
 .moderators-icon {
-    color: rgb(204 61 0) ;
-    background-color: rgb(204 61 0 / 10%);
+    color: rgb(214, 36, 0) ;
+    background-color: rgba(204, 24, 0, 0.1);
 }
 
 .visits-icon {
-    color: rgb(30 30 98);
-    background-color: rgb(30 30 98 / 10%);
+    color: rgb(103, 59, 184);
+    background-color: rgba(48, 33, 94, 0.1);
 }
 
 .tasks-icon {
